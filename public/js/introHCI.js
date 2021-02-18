@@ -10,4 +10,11 @@ $(document).ready(function() {
  */
 function initializePage() {
 	// your code here
+	$('.likeCtr').click(addProjectDetails);
+}
+
+function addProjectDetails(e) {
+	// Prevent following the link
+	e.preventDefault();
+	ga("send", "event", 'like', 'click');
 }
