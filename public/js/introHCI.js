@@ -10,7 +10,7 @@ $(document).ready(function() {
  */
 function initializePage() {
 	// your code here
-	$('.likeCtr').click(addProjectDetails);
+	//$('.likeCtr').click(addProjectDetails);
 	$('.likebtn').click(addProjectDetails);
 }
 
